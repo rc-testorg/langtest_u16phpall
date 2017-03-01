@@ -14,7 +14,6 @@ build:
    image_tag: master
    pull: true
     
+ 
  ci:
-  - mkdir -p shippable/codecoverage
-  - mkdir -p shippable/testresults
-  - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage calculator_test.php
+   - php --version
