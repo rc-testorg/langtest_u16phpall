@@ -14,7 +14,7 @@ build:
    image_tag: master
    pull: true
     
- 
+  
  ci:
    - php --version
    - lsb_release -a
