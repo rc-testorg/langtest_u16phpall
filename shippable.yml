@@ -18,5 +18,3 @@ build:
    - docker --version
    - docker info
    - docker ps
-
-
