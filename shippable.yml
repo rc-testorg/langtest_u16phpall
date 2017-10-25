@@ -6,6 +6,7 @@ php:
   - "5.6"
   - "7.0"
   - "7.1"
+  
 build: 
  pre_ci_boot:
    image_name: drydock/u16phpall
